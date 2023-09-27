@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    background-color: black; 
+    overflow-y: hidden;
+}
+
+#root{
+    padding: 3rem;
+    text-align: center;
+}
+
+#root>h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: rgb(214, 30, 30);
+}
+
+#root canvas{
+    display: block;
+    margin: 0 auto;
+}
